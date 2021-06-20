@@ -1,0 +1,69 @@
+============ System Variables ============
+
+Sample Time 1
+Date time recording the moment of measurement for all measurements in the
+HVAC system. All weather data is sampled once per hour, so contain repetition.
+
+TIN
+Temperature input, the temperature of the air that will be distributed
+amongst the rooms of the building, keeping the temperature in the building
+constant.
+
+TRE
+Temperature return, the temperature of air flowing out of the
+building, maintenance workers often use this measure as the average temperature
+in the building.
+
+MRE
+This variable represents the humidity level of the air after it has passed
+through the heat wheel, but before it has been through the heating or cooling
+system.
+
+MME
+Represents the humidity level of air leaving the building, used to measure the
+average humidity level of the building.
+
+Energy Consumption
+Energy consumption in the given time period
+
+============ Weather Variables ============
+
+DD
+Wind, in degrees. (360 == north, 90 == east, 180 == south, 270 == west, 0== no
+wind, 990 == variable)
+
+FH
+Average windspeed in the last hour (measured in 0.1 m/s).
+
+FF
+Average windspeed over the past ten minutes (measured in 0.1 m/s).
+
+FX
+strongest gust of the past hour (measured in 0.1 m/s).
+
+T
+Temperature at 1.5m above ground (measured in 0.1° C).
+
+TD
+Dew point temperature at 1.5m above ground (measured in 0.1° C).
+
+SQ
+Duration of sunshine, calculated by overall radiation (measured in 0.1 hours).
+
+Q
+Overall radiation per hour (measured in J/cm2).
+
+DR
+Duration of precipitation (measured in 0.1 hours).
+
+RH
+Total amount of precipitation (measured in 0.1 mm, -1 for values <0.05 mm).
+
+P
+Air pressure, calculated relative to sea-level (measured in 0.1hPa).
+
+N
+Overcast (9 == sky invisible, becoming less cloudy, with 0 being a clear sky).
+
+U
+Relative humidity at 1.5m above ground (measure in percentages).
