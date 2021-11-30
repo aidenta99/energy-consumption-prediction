@@ -43,14 +43,14 @@ From the column 'Sample Time 1' which says the date-time, create following new c
 ## Result
 
 #### 1. Prediction Model
-* MAE of LR:  8.119204177575272
-* MAE of Lasso:  8.357775250837536
-* MAE of Ridge:  8.13265038959899
-* MAE of Random Forest:  0.6779203556231113
-* R2 of LR:  0.5635932076894619
-* R2 of Lasso:  0.5484652950592614
-* R2 of Ridge:  0.5630602585496041
-* R2 of Random Forest:  0.9893739240289187
+* MAE of LR:  8.11
+* MAE of Lasso:  8.35
+* MAE of Ridge:  8.13
+* MAE of Random Forest:  0.67
+* R2 of LR:  0.56
+* R2 of Lasso:  0.54
+* R2 of Ridge:  0.56
+* R2 of Random Forest:  0.98
 
 Therefore, to predict energy consumption, **Random Forest** is the best model with lowest MAE and highest R2.
 
